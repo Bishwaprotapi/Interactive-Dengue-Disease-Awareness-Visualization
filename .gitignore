@@ -1,0 +1,199 @@
+# Build directories
+build/
+bin/
+out/
+Debug/
+Release/
+x64/
+x86/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE specific files
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+*.workspace
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Generated data files
+*.dat
+*.log
+*.csv
+*.json
+!package.json
+!tsconfig.json
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.backup
+
+# Dependencies
+deps/
+vendor/
+node_modules/
+
+# Documentation
+docs/_build/
+site/
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Log files
+*.log
+logs/
+log/
+
+# Cache directories
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Database
+*.sqlite
+*.db
+
+# OpenGL specific
+*.glsl
+*.vert
+*.frag
+*.geom
+*.tess
+*.comp
+*.shader
+
+# Project specific
+# Generated data files
+data/generated/
+data/cache/
+data/temp/
+
+# User specific
+user_settings.json
+user_preferences.json 
